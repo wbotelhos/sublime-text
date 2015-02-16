@@ -1,5 +1,4 @@
 [
-  { "keys": ["ctrl+alt+down"],   "command": "select_lines", "args": { "forward": true } },
   { "keys": ["ctrl+alt+k"],      "command": "markdown_preview", "args": { "target": "browser", "parser": "markdown" } },
   { "keys": ["ctrl+alt+n"],      "command": "rspec_create_module", "args": {} },
   { "keys": ["ctrl+alt+period"], "command": "open_rspec_file", "args": {} },
