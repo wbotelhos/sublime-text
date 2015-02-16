@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+puts '>' * 90
+p $0
+puts '<' * 90]]>
+  </content>
+  <tabTrigger>puts</tabTrigger>
+  <scope>*.rb</scope>
+</snippet>
