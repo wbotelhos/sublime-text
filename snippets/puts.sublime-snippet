@@ -5,5 +5,5 @@ p $0
 puts '<' * 90]]>
   </content>
   <tabTrigger>puts</tabTrigger>
-  <scope>*.rb</scope>
+  <scope>source.rb</scope>
 </snippet>
