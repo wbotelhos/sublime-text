@@ -33,12 +33,14 @@ configure() {
     APP_PATH=${LINUX_APP_FOLDER}/"${FOLDER_NAME}"/sublime_text
     EXEC_PATH=${APP_PATH}
     OS='Linux'
-    PACKAGES_DIR=~/.config/"${LINUX_CONFIG_FOLDER}"/Packages
+    CONFIG_DIR=~/.config/"${LINUX_CONFIG_FOLDER}"
+    PACKAGES_DIR=${CONFIG_DIR}/Packages
   else
     APP_PATH=/Applications/"${FOLDER_NAME}".app
     EXEC_PATH="${APP_PATH}"/Contents/SharedSupport/bin/subl
     OS='Mac'
-    PACKAGES_DIR=~/Library/'Application Support'/"${FOLDER_NAME}"/Packages
+    CONFIG_DIR=~/Library/'Application Support'/"${FOLDER_NAME}"
+    PACKAGES_DIR=${CONFIG_DIR}/Packages
   fi
 
   if [ ! -e "${APP_PATH}" ]; then
@@ -64,9 +66,11 @@ show_info
 
 USER_DIR=${PACKAGES_DIR}/User
 
+SETTINGS_DIR=${CONFIG_DIR}/Settings
 SNIPPETS_DIR=${USER_DIR}/snippets
 SYNTAXES_DIR=${USER_DIR}/syntaxes
 
+mkdir -p "$CONFIG_DIR"
 mkdir -p "$SNIPPETS_DIR"
 mkdir -p "$SYNTAXES_DIR"
 
