@@ -2,7 +2,7 @@
 
 . ./common.sh
 
-JOB_NAME='Sublime#aliases'
+JOB_NAME='Sublime#alias'
 
 ALIAS_NAME='sublime'
 ALIAS_PATH=/usr/local/bin/${ALIAS_NAME}
