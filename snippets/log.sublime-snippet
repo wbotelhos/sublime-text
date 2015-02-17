@@ -7,5 +7,4 @@ console.log('----------');
 ]]>
   </content>
   <tabTrigger>log</tabTrigger>
-  <scope>source.js</scope>
 </snippet>
