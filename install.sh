@@ -8,6 +8,7 @@ begin
 
 ./alias.sh
 ./keymaps.sh
+./license.sh
 ./plugins.sh
 ./settings.sh
 ./snippets.sh
