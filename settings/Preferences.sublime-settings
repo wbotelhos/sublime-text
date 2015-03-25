@@ -3,7 +3,7 @@
   "bold_folder_labels"                : true,
   "ensure_newline_at_eof_on_save"     : true,
   "file_exclude_patterns"             : ["*.class", "*.gz", "*.log", "*.pyc", "*.sassc", "*.scssc", ".DS_Store", ".DS_Store", "debian/*.deb", "debian/*.substvars", "debian/files"],
-  "folder_exclude_patterns"           : [".bundle", ".capistrano", ".git", "*.gz", "node_modules", "public/assets"],
+  "folder_exclude_patterns"           : [".bundle", ".capistrano", ".git", "node_modules", "public/assets"],
   "font_face"                         : "Menlo",
   "font_size"                         : 20,
   "highlight_line"                    : true,
