@@ -4,7 +4,7 @@
     "*.log",
     "*.sassc",
     "*.scssc",
-    "db/schema.rb"
+    "schema.rb"
   ],
   "bold_folder_labels"            : true,
   "ensure_newline_at_eof_on_save" : true,
