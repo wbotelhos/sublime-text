@@ -46,6 +46,7 @@ download 'https://github.com/jisaacks/GitGutter'             'GitGutter'
 download 'https://github.com/jonlabelle/Trimmer'             'Trimmer'
 download 'https://github.com/kemayo/sublime-text-2-git'      'Git'
 download 'https://github.com/victorporof/Sublime-JSHint'     'Sublime-JSHint'
+download 'https://github.com/wakatime/sublime-wakatime'      'WakaTime'
 download 'https://github.com/wbotelhos/sublime-sass-cleaner' 'sublime-sass-cleaner'
 download 'https://github.com/zoomix/SublimeToggleSymbol'     'SublimeToggleSymbol'
 

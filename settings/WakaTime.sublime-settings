@@ -1,0 +1,6 @@
+{
+  "api_key"            : "650a10cd-d8ab-4cb0-bef2-ad244be7d887",
+  "debug"              : false,
+  "ignore"             : ["^/tmp/", "^/etc/", "^/var/", "COMMIT_EDITMSG$", "PULLREQ_EDITMSG$", "MERGE_MSG$", "TAG_EDITMSG$"],
+  "status_bar_message" : true
+}
