@@ -41,6 +41,7 @@ begin
 cd "$PACKAGES_DIR"
 
 download 'https://github.com/eddorre/SublimeERB'             'SublimeERB'
+download 'https://github.com/FichteFoll/InsertDate'          'InsertDate'
 download 'https://github.com/jarod2d/sublime_valign'         'sublime_valign'
 download 'https://github.com/jisaacks/GitGutter'             'GitGutter'
 download 'https://github.com/jonlabelle/Trimmer'             'Trimmer'
@@ -49,7 +50,6 @@ download 'https://github.com/victorporof/Sublime-JSHint'     'Sublime-JSHint'
 download 'https://github.com/wakatime/sublime-wakatime'      'WakaTime'
 download 'https://github.com/wbotelhos/sublime-sass-cleaner' 'sublime-sass-cleaner'
 download 'https://github.com/zoomix/SublimeToggleSymbol'     'SublimeToggleSymbol'
-
 cd -
 
 end
