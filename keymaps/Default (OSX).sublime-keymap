@@ -1,8 +1,8 @@
 [
-  { "keys": ["command+3"], "command": "insert_date", "args": { "format": "# done %d-%m-%Y %H:%M:%S %Z", "tz_out": "UTC" } },
-  { "keys": ["command+shift+."], "command": "erb" },
-  { "keys": ["command+shift+;"], "command": "toggle_symbol" },
-  { "keys": ["command+shift+@"], "command": "assignment" },
-  { "keys": ["command+shift+a"], "command": "valign" },
+  { "keys": ["ctrl+3"], "command": "insert_date", "args": { "format": "# done %d-%m-%Y %H:%M:%S %Z", "tz_out": "UTC" } },
+  { "keys": ["ctrl+shift+."], "command": "erb" },
+  { "keys": ["ctrl+shift+;"], "command": "toggle_symbol" },
+  { "keys": ["ctrl+shift+@"], "command": "assignment" },
+  { "keys": ["ctrl+shift+a"], "command": "valign" },
   { "keys": ["f5"], "command": "refresh_folder_list" }
 ]
