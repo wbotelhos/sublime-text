@@ -29,7 +29,7 @@
     "node_modules",
     "public/assets",
     "tmp",
-    "vendor"
+    "/vendor"
   ],
   "font_face"                         : "Menlo",
   "font_size"                         : 20,
