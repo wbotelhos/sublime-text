@@ -8,6 +8,6 @@ begin
 
 echo -e "Copying '*.sublime-keymap' to '${USER_DIR}'\n"
 
-cp ./settings/*.sublime-settings "$USER_DIR"
+cp ./settings/*.sublime-settings "${USER_DIR}"
 
 end
