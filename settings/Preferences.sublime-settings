@@ -1,5 +1,5 @@
 {
-  "binary_file_patterns": [ // Excludes from Goto (⌘ + P) and Find (⌘ + F).
+  "binary_file_patterns": [
     "*.gem",
     "*.log",
     "*.sassc",
