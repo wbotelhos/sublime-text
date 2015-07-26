@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##################
-# --- Common --- #
+# --- common --- #
 ##################
 
 GRAY='\033[0;36m'
@@ -10,9 +10,9 @@ NO_COLOR='\033[1;0m'
 RED='\033[1;31m'
 YELLOW='\033[1;33m'
 
-##########################
-# --- Configurations --- #
-##########################
+###################
+# --- configs --- #
+###################
 
 FOLDER_NAME='Sublime Text 2'
 JOB_NAME="Sublime#--"
@@ -20,7 +20,7 @@ LINUX_APP_FOLDER=~/Development
 LINUX_CONFIG_FOLDER='sublime-text-2'
 
 #####################
-# --- Functions --- #
+# --- functions --- #
 #####################
 
 begin() {
@@ -58,7 +58,7 @@ show_info() {
 }
 
 ################
-# --- Init --- #
+# --- init --- #
 ################
 
 configure
