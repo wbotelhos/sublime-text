@@ -26,10 +26,11 @@
     ".bundle",
     ".capistrano",
     ".git",
+    "/vendor",
+    "bin",
     "node_modules",
     "public/assets",
-    "tmp",
-    "/vendor"
+    "tmp"
   ],
   "font_face"                         : "Menlo",
   "font_size"                         : 18,
