@@ -14,10 +14,9 @@ YELLOW='\033[1;33m'
 # --- configs --- #
 ###################
 
-FOLDER_NAME='Sublime Text 2'
+APPS_FOLDER=~/Development
 JOB_NAME="Sublime#--"
-LINUX_APP_FOLDER=~/Development
-LINUX_CONFIG_FOLDER='sublime-text-2'
+VERSION=3
 
 #####################
 # --- functions --- #
@@ -29,22 +28,24 @@ begin() {
 }
 
 configure() {
+  APP_NAME='Sublime Text'
+
   if [ `uname` == 'Linux' ]; then
-    APP_PATH=${LINUX_APP_FOLDER}/"${FOLDER_NAME}"/sublime_text
+    APP_PATH=${APPS_FOLDER}/"${APP_NAME} ${VERSION}"/sublime_text
     EXEC_PATH=${APP_PATH}
     OS='Linux'
-    CONFIG_DIR=~/.config/"${LINUX_CONFIG_FOLDER}"
+    CONFIG_DIR=~/.config/"sublime-text-${VERSION}"
     PACKAGES_DIR=${CONFIG_DIR}/Packages
   else
-    APP_PATH=/Applications/"${FOLDER_NAME}".app
+    APP_PATH=/Applications/"${APP_NAME}".app
     EXEC_PATH="${APP_PATH}"/Contents/SharedSupport/bin/subl
     OS='Mac'
-    CONFIG_DIR=~/Library/'Application Support'/"${FOLDER_NAME}"
+    CONFIG_DIR=~/Library/'Application Support'/"${APP_NAME} ${VERSION}"
     PACKAGES_DIR=${CONFIG_DIR}/Packages
   fi
 
   if [ ! -e "${APP_PATH}" ]; then
-    echo -e "\n${RED}The \"${FOLDER_NAME}\" is not installed yet. Do it first!${NO_COLOR}\n" && exit 1
+    echo -e "\n${RED}The \"${APP_NAME}\" is not installed yet. Do it first!${NO_COLOR}\n" && exit 1
   fi
 }
 
