@@ -4,8 +4,6 @@
 
 JOB_NAME='Sublime#install'
 
-begin
-
 ./alias.sh
 ./keymaps.sh
 ./license.sh
@@ -13,5 +11,3 @@ begin
 ./settings.sh
 ./snippets.sh
 ./syntaxes.sh
-
-end
