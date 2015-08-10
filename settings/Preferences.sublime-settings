@@ -28,6 +28,7 @@
     ".git",
     "/vendor",
     "bin",
+    "coverage",
     "node_modules",
     "public/assets",
     "tmp"
