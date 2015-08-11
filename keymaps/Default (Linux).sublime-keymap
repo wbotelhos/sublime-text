@@ -1,5 +1,5 @@
 [
-  { "keys": ["ctrl+3"], "command": "insert_date", "args": { "format": "# done %d-%m-%Y %H:%M:%S %Z", "tz_out": "UTC" } },
+  { "keys": ["ctrl+3"], "command": "insert_date", "args": { "format": "# done %d-%m-%y %H:%M:%S %Z", "tz_out": "UTC" } },
   { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": { "forward": true } },
   { "keys": ["ctrl+shift+."], "command": "erb" },
   { "keys": ["ctrl+shift+;"], "command": "toggle_symbol" },
