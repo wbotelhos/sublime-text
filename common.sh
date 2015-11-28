@@ -16,7 +16,7 @@ YELLOW='\033[1;33m'
 
 APPS_FOLDER=~/Development
 JOB_NAME="Sublime#--"
-VERSION=3
+VERSION=2
 
 #####################
 # --- functions --- #
@@ -37,7 +37,7 @@ configure() {
     CONFIG_DIR=~/.config/"sublime-text-${VERSION}"
     PACKAGES_DIR=${CONFIG_DIR}/Packages
   else
-    APP_PATH=/Applications/"${APP_NAME}".app
+    APP_PATH=/Applications/"${APP_NAME} 2".app
     EXEC_PATH="${APP_PATH}"/Contents/SharedSupport/bin/subl
     OS='Mac'
     CONFIG_DIR=~/Library/'Application Support'/"${APP_NAME} ${VERSION}"
