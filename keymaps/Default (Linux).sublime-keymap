@@ -4,6 +4,5 @@
   { "keys": ["ctrl+shift+."], "command": "erb" },
   { "keys": ["ctrl+shift+;"], "command": "toggle_symbol" },
   { "keys": ["ctrl+shift+@"], "command": "assignment" },
-  { "keys": ["ctrl+shift+a"], "command": "valign" },
-  { "keys": ["f5"], "command": "refresh_folder_list" }
+  { "keys": ["ctrl+shift+a"], "command": "valign" }
 ]
