@@ -2,4 +2,5 @@
   <content><![CDATA[binding.pry]]></content>
   <tabTrigger>debug</tabTrigger>
   <tabTrigger>pry</tabTrigger>
+  <scope>source.ruby</scope>
 </snippet>
