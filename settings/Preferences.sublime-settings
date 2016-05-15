@@ -20,7 +20,8 @@
     ".DS_Store",
     "debian/*.deb",
     "debian/*.substvars",
-    "debian/files"
+    "debian/files",
+    "screenshot_*"
   ],
   "folder_exclude_patterns": [
     ".bundle",
@@ -34,7 +35,7 @@
     "tmp"
   ],
   "font_face"                         : "Menlo",
-  "font_size"                         : 18,
+  "font_size"                         : 17,
   "highlight_line"                    : true,
   "highlight_modified_tabs"           : true,
   "hot_exit"                          : false,
