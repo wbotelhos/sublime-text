@@ -41,6 +41,7 @@ begin
 cd "$PACKAGES_DIR"
 
 download 'https://github.com/eddorre/SublimeERB'             'SublimeERB'
+download 'https://github.com/facelessuser/ScopeHunter'       'ScopeHunter'
 download 'https://github.com/FichteFoll/InsertDate'          'InsertDate'
 download 'https://github.com/jarod2d/sublime_valign'         'sublime_valign'
 download 'https://github.com/jisaacks/GitGutter'             'GitGutter'
