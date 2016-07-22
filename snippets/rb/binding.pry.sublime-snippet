@@ -1,5 +1,6 @@
 <snippet>
-  <content><![CDATA[binding.pry]]></content>
+  <content><![CDATA[binding.pry; p '']]></content>
+  <tabTrigger>deb</tabTrigger>
   <tabTrigger>debug</tabTrigger>
   <tabTrigger>pry</tabTrigger>
   <scope>source.ruby</scope>
