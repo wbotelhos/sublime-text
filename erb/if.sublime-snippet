@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+<![CDATA[
+<% if $1 %>
+  $2
+<% end %>
+]]>
+  </content>
+  <tabTrigger>if</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

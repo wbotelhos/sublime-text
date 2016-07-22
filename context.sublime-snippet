@@ -1,10 +1,10 @@
 <snippet>
   <content>
 <![CDATA[
-before do
+context '$!' do
   $0
 end
 ]]></content>
-  <tabTrigger>before</tabTrigger>
+  <tabTrigger>context</tabTrigger>
   <scope>source.ruby</scope>
 </snippet>

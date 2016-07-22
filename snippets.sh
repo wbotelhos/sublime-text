@@ -6,8 +6,8 @@ JOB_NAME='Sublime#snippets'
 
 begin
 
-echo -e "Copying '*.sublime-keymap' to '${USER_DIR}'\n"
+echo -e "Copying 'snippets' folder to '${USER_DIR}'\n"
 
-cp ./snippets/*.sublime-snippet "$SNIPPETS_DIR"
+cp -R ./snippets "${USER_DIR}"
 
 end

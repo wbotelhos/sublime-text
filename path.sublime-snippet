@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[path: '../$0' # ]]></content>
+  <tabTrigger>path</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

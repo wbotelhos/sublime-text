@@ -1,10 +1,10 @@
 <snippet>
   <content>
 <![CDATA[
-before do
+describe '$!' do
   $0
 end
 ]]></content>
-  <tabTrigger>before</tabTrigger>
+  <tabTrigger>describe</tabTrigger>
   <scope>source.ruby</scope>
 </snippet>
