@@ -1,5 +1,5 @@
 <snippet>
-  <content>described_class</content>
+  <content>described_class.</content>
   <tabTrigger>dc</tabTrigger>
   <scope>source.ruby</scope>
 </snippet>

@@ -2,7 +2,7 @@
   <content>
 <![CDATA[
 before do
-  $0
+  $1
 end
 ]]></content>
   <tabTrigger>before</tabTrigger>

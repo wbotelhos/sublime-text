@@ -2,7 +2,7 @@
   <content>
 <![CDATA[
 puts '>' * 90
-p $0
+p $1
 puts '<' * 90
 ]]>
   </content>
