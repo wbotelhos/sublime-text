@@ -67,10 +67,15 @@ show_info
 
 USER_DIR=${PACKAGES_DIR}/User
 
-SETTINGS_DIR=${CONFIG_DIR}/Settings
+SNIPPETS_DIR=${USER_DIR}/snippets
 SYNTAXES_DIR=${USER_DIR}/syntaxes
 
-mkdir -p "$CONFIG_DIR"
-mkdir -p "$SNIPPETS_DIR"
-mkdir -p "$SYNTAXES_DIR"
+echo -e "Trying to create '${CONFIG_DIR}'"
+mkdir -p "${CONFIG_DIR}"
+
+echo -e "Trying to create '${SNIPPETS_DIR}'"
+mkdir -p "${SNIPPETS_DIR}"
+
+echo -e "Trying to create '${SYNTAXES_DIR}'\n"
+mkdir -p "${SYNTAXES_DIR}"
 
