@@ -1,8 +1,8 @@
 <snippet>
   <content>
 <![CDATA[
-context '$1' do
-  $2
+context '$!' do
+  $0
 end
 ]]></content>
   <tabTrigger>context</tabTrigger>

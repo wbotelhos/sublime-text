@@ -1,8 +1,8 @@
 <snippet>
   <content>
 <![CDATA[
-describe '$1' do
-  $2
+describe '$!' do
+  $0
 end
 ]]></content>
   <tabTrigger>describe</tabTrigger>
