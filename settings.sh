@@ -2,11 +2,11 @@
 
 . ./common.sh
 
-JOB_NAME='Sublime#snippets'
+JOB_NAME='Sublime#settings'
 
 begin
 
-echo -e "Copying '*.sublime-keymap' to '${USER_DIR}'\n"
+echo -e "Copying '*.sublime-settings' to '${USER_DIR}'\n"
 
 cp ./settings/*.sublime-settings "${USER_DIR}"
 
